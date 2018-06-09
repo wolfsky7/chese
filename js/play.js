@@ -323,5 +323,10 @@ play.showWin = function (my){
 	}else{
 		alert("ºÜÒÅº¶£¬ÄãÊäÁË£¡");
 	}
+
+	setTimeout(()=>{
+		com.init()
+		play.init()
+	},2000)
 }
 
